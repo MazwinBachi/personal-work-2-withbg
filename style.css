@@ -49,3 +49,16 @@
     opacity: 0;
     visibility: hidden;
 }
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+.card-clr{
+    background-color: #cbdad4;
+    border: none;
+}
+.card-clr:hover{
+    background-color: #96c2b0;
+}
