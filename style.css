@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Atlantis;
+    src: url(./font/Atlantis\ the\ lost\ City.ttf);
+}
+@font-face {
+    font-family: Anitto;
+    src: url(./font/Anitto.otf);
+}
+@font-face {
+    font-family: Gothic;
+    src: url(./font/BankGothicMediumBT.TTF);
+}
+.logo{
+    font-family: Anitto;
+    font-size: small;
+}
+
+.item-nav{
+    font-family: Gothic;
+}
+.img-div-one{
+    width: 100%;
+    height: 400px;
+}
+.divone{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom right, #020024, #097956,#00d4ff);
+    height: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    font-family: Atlantis;
+}
+.preloader-wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 2s
+}
+
+.fade-out-animation{
+    opacity: 0;
+    visibility: hidden;
+}
